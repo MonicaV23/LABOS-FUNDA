@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using  namespace  std;
 int main(){
 
@@ -7,7 +8,7 @@ int main(){
     cin>>num1;
     
 
-     double area= (3.1416)*num1*num1; 
+     double area= (3.1416)*pow(num1,2); 
         cout<<"Area="<<area<<endl;
 
     double perimetro=2*(3.1416)*num1;
