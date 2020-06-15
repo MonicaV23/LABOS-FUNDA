@@ -11,7 +11,6 @@ bool BISIESTO(int year){
         }
     return VALOR;
 }
-
 int main(){
     int dia;
     int YEAR;
